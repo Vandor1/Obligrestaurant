@@ -1,0 +1,16 @@
+nav{
+    justify-content: center;
+    display:grid;
+    grid-template-areas: "meny bestillbord takeaway kontaktinformasjon finnoss";
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+#meny{grid-area: meny}
+#bestillbord{grid-area: bestillbord}
+#takeaway{grid-area: takeaway}
+#kontaktinformasjon{grid-area: kontaktinformasjon}
+#finnoss{grid-area: finnoss}

@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/* ----- HEADER --------*/
+h1{
+    text-align: center;
+    font-family: 'Italianno', cursive;
+    font-size: 90px;
+}
+/* ----- HEADER END --------*/
+
+
+/* ----- NAV --------*/
+nav {
+    justify-items: center;
+    font-size: 24px;
+    grid-gap: 30px;
+    padding: 20px;
+    font-family: 'Josefin Slab', serif;
+}
+
+
+/* ----- NAV END --------*/
+
+
+
+/* ----- MAIN --------*/
+main{
+    text-align:center;
+    display:block;
+}
+.picture{
+    height: 1000px;
+    width: 1500px;
+}
+/* ----- MAIN END --------*/
+
+
+
+/* ----- FOOTER --------*/
+footer{
+    display: grid;
+    grid-template-areas: "rettigheter kontaktinfo navn";
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+}
+
+#kontaktinfo{
+    grid-area: kontaktinfo;
+    align-self: center;
+    padding: 20px;
+}
+
+#navn{
+    grid-area: navn;
+    text-align: end;
+    padding: 20px;
+}
+
+#rettigheter{
+    grid-area: rettigheter;
+    padding: 20px;
+}
+/* ----- FOOTER END --------*/
