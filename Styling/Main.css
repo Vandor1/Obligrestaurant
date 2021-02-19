@@ -4,13 +4,13 @@ body{
     height: 100vh;
 }
 
-/* ----- HEADER --------*/
+/* ----- HEADER1 --------*/
 h1{
     text-align: center;
     font-family: 'Italianno', cursive;
     font-size: 90px;
 }
-/* ----- HEADER END --------*/
+/* ----- HEADER1 END --------*/
 
 
 /* ----- NAV --------*/
@@ -21,8 +21,6 @@ nav {
     padding: 20px;
     font-family: 'Josefin Slab', serif;
 }
-
-
 /* ----- NAV END --------*/
 
 
@@ -43,7 +41,9 @@ main{
 /* ----- FOOTER --------*/
 footer{
     display: grid;
-    grid-template-areas: "rettigheter kontaktinfo navn";
+    grid-template-areas: "Beskyttet rettigheter kontaktinfo navn";
+    width: 100%;
+    bottom:0;
 }
 
 footer a{
@@ -63,8 +63,25 @@ footer a{
     padding: 20px;
 }
 
+#Beskyttet{
+    grid-area: Beskyttet;
+    padding: 20px;
+}
+
 #rettigheter{
     grid-area: rettigheter;
     padding: 20px;
 }
 /* ----- FOOTER END --------*/
+
+button{
+    background-color: white; /* Green */
+    border: 1px solid black;
+    border-radius: 8px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

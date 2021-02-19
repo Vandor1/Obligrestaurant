@@ -1,0 +1,81 @@
+/* ---- GENERAL ----*/
+*{
+    box-sizing: border-box;
+}
+
+h2{
+    font-family: 'Josefin Slab', serif;
+}
+
+
+/* ----- NAV --------*/
+.nav-link-wrapper{
+    height: 40px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+nav > .nav-rightside > div{
+    margin-right: 20px;
+    font-size: 38px;
+}
+
+.nav-rightside{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.nav-link-wrapper a{
+    color: #8a8a8a;
+    text-decoration: none;
+    transition:  color 0.5s;
+}
+
+.nav-link-wrapper:hover{
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover{
+    color: black;
+}
+
+.brand a{
+    font-family: 'Italianno', cursive;
+    font-size: 60px;
+    color: black;
+    text-decoration: none;|
+}
+/* ----- NAV END--------*/
+
+/* ---- MAIN ------ */
+.meny-container{
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    justify-content: center;
+    grid-gap: 50px;
+    position: relative;
+}
+
+.item-container{
+    width: 200px;
+    height: 100%;
+}
+
+.meny-picture{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.meny-container p{
+    font-family: "Times New Roman", serif;
+}
+/* ---- MAIN END------ */

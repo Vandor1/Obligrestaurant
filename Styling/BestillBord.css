@@ -1,3 +1,5 @@
+
+/* ----- NAV --------*/
 .nav-link-wrapper{
     height: 40px;
     border-bottom: 1px solid transparent;
@@ -41,13 +43,22 @@ nav > .nav-rightside > div{
     color: black;
     text-decoration: none;
 }
+/* ----- NAV END--------*/
 
-Button{
+
+button{
     width: 200px;
     height: 40px;
+    text-align: center;
 }
+
+.knapper{padding-bottom: 10px;}
 
 main{
     display:flex;
     flex-direction: column;
+}
+
+.kalender{
+    border: 1px Solid black;
 }
